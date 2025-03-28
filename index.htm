@@ -1,51 +1,168 @@
 <!DOCTYPE html>
-<html>
-	<head>
+<html lang="en">
+<head>
 	<!-- Task 1: Create a simple HTML -->
-		<title>HTML5 part one</title>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Hands-on Practice &Assessments part one</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-        }
-        nav {
-            background-color: #00BFFF;
-            color: white;
-            padding: 10px;
-        }
-        nav ul {
-            list-style-type: none;
+            margin: 0;
             padding: 0;
         }
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
+        article {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f9f9f9;
         }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
+
+        section {
+            margin: 20px 10px;
         }
-        div.section {
+
+        nav {
+            margin: 20px 10px;
+            padding: 10px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .cont {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
             padding: 20px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+        .head {
+            text-align: center;
+            padding: 20px 0;;
+        }
+        .header, .footer {
+            background: #000000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .post {
+            margin: 20px 0;
+        }
+        .post-title {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .post-content {
+            line-height: 1.6;
+        }
+        .main {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .sidebar, .content {
+            flex: 1;
+            margin: 0 10px;
+            padding: 20px;
+            background: #f4f4f4;
+        }
+        .post-meta {
+            color: #777;
+            margin-bottom: 20px;
+        }
+        blockquote {
+            border-left: 4px solid grey;
+            padding-left: 20px;
+            margin: 20px 0;
+            font-style: italic;
+        }
+        .cite {
+            display: block;
+            margin-top: 5px;
+            font-size: 0.9em;
+            color: #555;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            margin: 10px 0;
+}
     </style>
 </head>
     
-	<body>
-		<h1>Learning HTML Heading</h1>
-	<!-- Task 2 and 3: Add multiple headings and add an image -->
-		<img src="images.jpeg" alt="SimagE.jpeg" width="400" height="400">
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <li><a href="#task1">Task 1</a></li>
+        <li><a href="#task2">Task 2</a></li>
+        <li><a href="#task3">Task 3</a></li>
+        <li><a href="#task4">Task 4</a></li>
+        <li><a href="#task5">Task 5</a></li>
+        <li><a href="#task6">Task 6</a></li>
+        <li><a href="#task7">Task 7</a></li>
+        <li><a href="#task8">Task 8</a></li>
+        <li><a href="#task9">Task 9</a></li>
+        <li><a href="#task10">Task 10</a></li>
+        <li><a href="#task11">Task 11</a></li>
+        <li><a href="#task12">Task 12</a></li>
+        <li><a href="#task13">Task 13</a></li>
+        <li><a href="#task14">Task 14</a></li>
+        <li><a href="#task15">Task 15</a></li>
+        <li><a href="#task16">Task 16</a></li>
+        <li><a href="#task17">Task 17</a></li>
+        <li><a href="#task18">Task 18</a></li>
+        <li><a href="#task19">Task 19</a></li>
+    </nav>
+
+    <!-- Task 1: Simple HTML Document -->
+    <section id="task1">
+		<h1>Learning Simple HTML Heading</h1>
+    </section>
+
+    <!-- Task 2 and 3: Add multiple headings -->
+    <section id="task2">
 		<h1>My First HTML Heading</h1>
 		<h2>My Second HTML Heading</h2>
 		<h3>My Third HTML Heading</h3>
 		<h4>My Forth HTML Heading</h4>
 		<h5>My Fifth HTML Heading</h5>
 		<h6>My Sixth HTML Heading</h6>
-	<!-- Task 4: Create paragraph -->
-		<p>Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript, a programming language.<a href="link.htm">Want to learn more</a></p>
-	<div id="section1">
-	<!-- Task 5: Create a webpage with sections using div -->
+    </section>
+
+    <!-- Task 3: Create paragraph -->
+    <section id="task3">
+		<p>Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser.<a href="link.htm">Want to learn more</a></p>
+    </section>
+
+    <!-- Task 4: Add an image -->
+    <section id="task4">
+                <img src="images.jpeg" alt="SimagE.jpeg" width="400" height="400">
+    </section>
+
+    <!-- Task 5: Create a webpage with sections using div -->
+    <section id="task5">
+    <section id="task9"> <!-- Task 9: Comment explaining about the sections -->
+                <div id="section1" class="section">
+                    <h2> Section A</h2>
+                    <p>My new first content</p>
+                </div>
+
+                <div id="section2" class="section">
+                    <h2> Section B</h2>
+                    <p>My new second content</p>
+                </div>
+
+                <div id="section3" class="section">
+                    <h2> Section C</h2>
+                    <p>My new third content</p>
+                </div>
+    </section>
+    </section>
+
+    <!-- Task 6: Add a navigation bar with links to different sections -->
+    <section id="task6">
 		<nav>
                    <ul>
                      <li><a href="#section1">Section A</a></li>
@@ -53,49 +170,88 @@
                      <li><a href="#section3">Section C</a></li>
                    </ul>
                 </nav>
+    </section>
 
-                <div id="section1" class="section">
-                    <h2> Section A</h2>
-                    <p>My new first section</p>
-                </div>
-
-                <div id="section2" class="section">
-                    <h2> Section B</h2>
-                    <p>My new second section</p>
-                </div>
-
-                <div id="section3" class="section">
-                    <h2> Section C</h2>
-                    <p>My new third section</p>
-                </div>
- 
+    <!-- Task 7: Simple Profile -->
+    <section id="task7">
 	<div id="Profile">
-	<!-- Task 7: Simple Profile -->
 		<h2>My Profile</h2>
 		<img src="pexels-photo-14653174.jpeg" alt="profile-photo.jpeg" width="400" height="400">
 		<p>A personal profile serves as a way of introducing yourself to job recruiters.<br>You can include this at the top of your resume to describe your professional accomplishments and suitability for the job. By understanding how a personal profile can strengthen your resume, you can write an effective one that improves your chances of securing a job interview.</p>
 	</div>
+    </section>
+
+    <!-- Task 8: Create external link -->
+    <section id="task8">
 		<p>
-		<!-- Task 8: Create external link -->
-		<a href="https://www.example.com" target="_blank">New Tab Sample</a>
-		<!-- Task 9: Comment explaining about the sections -->
+		<a href="https://orderific.com/customer/directory" target="_blank">New Tab Sample</a>
+    </section>
+
 		</p>
-		<!-- Task 10 and 11: Format text and inserting break and hrozontal rule-->
-		<p>In this article, we discover what a <b>personal profile</b> is, review its <i>benefits</i>, <u>explain how to create one</u>, share tips on how to write an effective one,<br>And provide examples.</p>
+
+    <!-- Task 10: Format text using bold, italic and underline-->
+    <section id="task10">
+                <p>In this article, we discover what a <b>personal profile</b> is, review its <i>benefits</i>, <u>explain how to create one</u>, share tips on how to write an effective one,<br>And provide examples.</p>
+    </section>
+
+    <!-- Task 11: Inserting break and horozontal rule-->
+    <section id="task11">
+                <hr>
+		<p>In this article, we discover what a personal profile is, review its benefits, explain how to create one, share tips on how to write an effective one,<br>And provide examples.</p>
+    </section>
 		<hr>
+
+    <!-- Task 12:Using strong and Em -->
+    <section id="task12">
 		<p>
-		<!-- Task 12:Using strong and Em -->
 		<strong>Personal profile</strong> summarizes <em>one's prefessional work goals</em>
 		</p>
-	<div>
-		<!-- Task 13: Nested section -->
-		<h2>New Nested Section</h2>
-		<p>This is my new nested paragraph.</p>
-	</div>
-	<!-- Task 14: Add a button -->
-		<button onclick="location.href='#section3'">Please Click Me</button>
-	<!-- Task 15: create ordered and unordered list -->
-	<section>
+    </section>
+
+    <!-- Task 13: Nest elements within a <div> container -->
+    <section id="task13">
+    <div>
+		<h1>Nested Section</h1>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <h2>My New Website</h2>
+            <p>Welcome to my new website</p>
+        </div>
+
+        <!-- Main Content Section -->
+        <div class="main">
+            <div class="sidebar">
+                <h3>Sidebar</h3>
+                <p>This is where my sidebar contents are.</p>
+                <ul>
+                    <li><a href="#task13">Link 1</a></li>
+                    <li><a href="#task4">Link 2</a></li>
+                    <li><a href="#task7">Link 3</a></li>
+                </ul>
+            </div>
+
+            <div class="content">
+                <h3>Main Content</h3>
+                <p>Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages.</p>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer">
+            <p>© 2025 My Website</p>
+        </div>
+    </div>
+    </div>
+    </section>
+
+    <!-- Task 14: Add a button -->
+    <section id="task14">
+		<button onclick="location.href='#task8'">Please Click Me</button>
+    </section>
+
+    <!-- Task 15: create ordered and unordered list -->
+    <section id="task15">
 		<h3>Tips for writing effective personal profile</h3>
 		<ul>
 			<li>Be concise</li>
@@ -108,21 +264,50 @@
 			<li>Discuss your skills and abilities</li>
 			<li>Include educational qualifications</li>
 		</ol>
-	</section>
+    </section>
+
+    <!-- Task 16: add email -->
+    <section id="task16">
 		<p>
-	<!-- Task 16: add email -->
 		Contact me at <a href="mailto:florimba22@gmail.com">Email Me</a>
 		</p>
+    </section>
+
+    <!-- Task 17: Blog post -->
+    <section id="task17">
 	<article>
-	<!-- Task 17: Blog post -->
-		<h2>Profile Blog Post</h2>
+        <div class="cont">
+        <!-- Header Section -->
+        <div class="head">
+		<h1>Profile Blog Post</h1>
 		<p>Welcome to me unique content of the blog post.</p>
+        </div>
+
+        <div class="post">
+                <h2 class="post-title">Introduction</h2>
+                <p class="post-meta">Posted on March 28, 2025 by Florentiness</p>
+        <div class="post-content">
+                <p>Learning HTML is the first step towards becoming a web developer. HTML, or HyperText Markup Language, is the standard language for creating web pages. It provides the basic structure for web content, which is then enhanced and styled with CSS and JavaScript.</p>
+    <!-- Task 18: testing different heading sizes -->
+    <section id="task18">
+                <h2>Different sizes</h2>
+		<h3>Different sizes</h3>
+		<h4>Different sizes</h4>
+		<h5>Different sizes</h5>
+		<h6>Different sizes</h6>
+    </section>
+
+    <!-- task 19: Add a blockquote -->
+    <section id="task19">
+        <blockquote>
+                "This is a profile creator's quote."
+                <span class="cite">- Methusela O. Spencer</span>
+        </blockquote>
+    </section>
+        </div>
+        </div>
+        </div>
 	</article>
-	<!-- Task 18: testing different heading sizes
-	<blockquote>
-	<!-- task 19: Add a blockquote -->
-		"This is a profile creator's quote."
-		<cite>- Methusela O</cite>
-	</blockquote>
-	</body>
+    </section>
+</body>
 </html>
